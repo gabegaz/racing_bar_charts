@@ -52,9 +52,14 @@ Clone the project
 
 ### Access app from browser
 
-Go to Clone the project
+Once you run the app, you should see the following
 
 ```bash
-  cd app
-  python app.py
+ Dash is running on http://127.0.0.1:8050/
+
+ * Serving Flask app 'app'
+ * Debug mode: on
+
 ```
+
+Go to http://127.0.0.1:8050/ to get the app running.
