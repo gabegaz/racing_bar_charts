@@ -48,7 +48,7 @@ def racing_bar_chart(selected_var):
     fig_bar.update_yaxes(showgrid=True),
     fig_bar.update_xaxes(categoryorder='total descending')
     fig_bar.update_traces(hovertemplate=None)
-    fig_bar.layout.updatemenus[0].buttons[0].args[1]["frame"]["duration"] = 750
+    fig_bar.layout.updatemenus[0].buttons[0].args[1]["frame"]["duration"] = 500
     fig_bar.update_layout(margin=dict(t=70, b=0, l=70, r=40),
                             hovermode="x unified",
                             xaxis_tickangle=360,
